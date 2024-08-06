@@ -32,7 +32,9 @@ Resources:
             header = ['Name', 'Age', 'Profession']
             data = [('John', '25', 'Engineer'),
             ('Anna', '28', 'Doctor'),
-            ('Peter', '30', 'Artist')]
+            ('Peter', '30', 'Artist'),
+            ('Yassir', '21', 'Student')
+            ]
             filename = 'people.csv'
             with open('/tmp/' + filename, 'w', newline='') as f:
               writer = csv.writer(f)
