@@ -25,5 +25,6 @@ jobs:
       run: |
         aws cloudformation deploy \
           --template-file workshop4.yaml \
-          --stack-name your-stack-name \
-          --capabilities CAPABILITY_NAMED_IAM
+          --stack-name yassir-stack-workshop-5 \
+          --capabilities CAPABILITY_NAMED_IAM 
+#         CAPABILITY_NAMED_IAM acknowledge that the CloudFormation stack template contains IAM resources with custom names
